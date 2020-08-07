@@ -1,24 +1,24 @@
 const memlist = [
     {
       id: 1,
-      imgSrc: "./img/serval.png",
+      imgSrc: "./img/ntnk.png",
       name: "Natsuniko",
       desc:
-      "Founder / CEO. 大きな耳とスリムな体が特徴で、その聴力はネコ科を代表するほど優れています。2、3mは軽々飛べるジャンプ力を生かした、狩りの達人です。サーバルは「猟犬」を意味するという説もあります。"
+      "Founder / CEO. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 2,
-      imgSrc: "./img/rdk.jpg",
+      imgSrc: "./img/rdk.png",
       name: "Red Key",
       desc:
-      "前足の爪が小さいことが名前の由来になっている。俊敏に動けて潜水も得意。10種類以上の声を使い分ける声優志望。「獲物を探すために隙間に手を突っ込む」という習性で、握手会もばっちり。"
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         id: 3,
-        imgSrc: "./img/pixsleman.png",
-        name: "Pixsleman",
+        imgSrc: "./img/pxsl.png",
+        name: "Pixsle",
         desc:
-        "上記2点に注意して、フレンズの珍しい行動を集めましょう！ 現状、エリア・時間帯が関連するかどうか不明です。コメント欄でもみなさんの情報を共有いただけると幸いです。"
+        "An Isekaijin who was able to come back to our world. He now spends his days as a NEET, playing video games and watching anime that he missed while in another world. What exactly happened to him in this other world? We might never know for sure."
     },
     {
       id: 4,
