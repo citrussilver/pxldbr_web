@@ -61,10 +61,15 @@ dt span {
     font-weight: 900;
 }
   
-.image {
+.imgspan {
     margin: 0 auto 20px;
     display: block;
     font-size: 400%;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
   
 dd {

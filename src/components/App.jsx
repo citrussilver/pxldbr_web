@@ -16,7 +16,7 @@ function App(){
     return (
         <div>
           <h1>
-            <span>Kemono Friends</span>
+            <span>Pixeled Bros</span>
           </h1>
           <dl className="dictionary">{memlist.map(createCard)}</dl>
         </div>

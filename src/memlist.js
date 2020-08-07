@@ -2,33 +2,40 @@ const memlist = [
     {
       id: 1,
       imgSrc: "./img/serval.png",
-      name: "Leptailurus serval",
+      name: "Natsuniko",
       desc:
-      "大きな耳とスリムな体が特徴で、その聴力はネコ科を代表するほど優れています。2、3mは軽々飛べるジャンプ力を生かした、狩りの達人です。サーバルは「猟犬」を意味するという説もあります。"
+      "Founder / CEO. 大きな耳とスリムな体が特徴で、その聴力はネコ科を代表するほど優れています。2、3mは軽々飛べるジャンプ力を生かした、狩りの達人です。サーバルは「猟犬」を意味するという説もあります。"
     },
     {
       id: 2,
-      imgSrc: "./img/kotsume.png",
-      name: "Aonyx cinerea",
+      imgSrc: "./img/rdk.jpg",
+      name: "Red Key",
       desc:
       "前足の爪が小さいことが名前の由来になっている。俊敏に動けて潜水も得意。10種類以上の声を使い分ける声優志望。「獲物を探すために隙間に手を突っ込む」という習性で、握手会もばっちり。"
     },
     {
-      id: 3,
+        id: 3,
+        imgSrc: "./img/pixsleman.png",
+        name: "Pixsleman",
+        desc:
+        "上記2点に注意して、フレンズの珍しい行動を集めましょう！ 現状、エリア・時間帯が関連するかどうか不明です。コメント欄でもみなさんの情報を共有いただけると幸いです。"
+    },
+    {
+      id: 4,
       imgSrc: "./img/jaga.png",
       name: "Panthera onca",
       desc:
       "橋の残骸を船に見立てて渡しをしているフレンズ。さばくちほーとさばんなちほーを結ぶ橋を作る際に協力した。"
     },
     {
-      id: 4,
+      id: 5,
       imgSrc: "./img/araiguma.png",
       name: "Procyon lotor",
       desc:
       "通称「アライさん」。語尾に「なのだ」をつけて話す。超がつくほどポジティブで、根拠のない謎の自信を持ち、深く物事を考えずに突っ走っては失敗に終わる。でもポジティブだから落ち込まない。アライさんの時代はいつになったらやって来るのか。基本的にはフェネックと行動を共にしている。"
     },
     {
-        id: 5,
+        id: 6,
         imgSrc: "./img/koutei.png",
         name: "Aptenodytes forsteri",
         desc:
