@@ -8,7 +8,7 @@ const memlist = [
     },
     {
       id: 2,
-      imgSrc: "./img/rdk.png",
+      imgSrc: "./img/rdk.jpg",
       name: "Red Key",
       desc:
       "An Android that escaped a corporate Android world. It is the tenure years that taught this Android, not just to get by in the life but to be human-like. This Android believes that learning and looking for answers are the sorts of things that give Life meaning. Even an Android, it considers itself lucky that there are people that reminds its flawed thinking sometimes."
@@ -23,16 +23,16 @@ const memlist = [
     {
       id: 4,
       imgSrc: "./img/jaga.png",
-      name: "Panthera onca",
+      name: "Capt. Lowres",
       desc:
-      "橋の残骸を船に見立てて渡しをしているフレンズ。さばくちほーとさばんなちほーを結ぶ橋を作る際に協力した。"
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 5,
       imgSrc: "./img/araiguma.png",
-      name: "Procyon lotor",
+      name: "Mr. SoBad",
       desc:
-      "通称「アライさん」。語尾に「なのだ」をつけて話す。超がつくほどポジティブで、根拠のない謎の自信を持ち、深く物事を考えずに突っ走っては失敗に終わる。でもポジティブだから落ち込まない。アライさんの時代はいつになったらやって来るのか。基本的にはフェネックと行動を共にしている。"
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         id: 6,
