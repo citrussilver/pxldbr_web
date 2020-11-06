@@ -1,10 +1,17 @@
 import React from 'react';
 import memlist from '../memlist';
 import Card from './Card';
+import Home from '../pages/Home';
+import Navbar from './Navbar/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom';
 
-function App(){
+function App() {
     return (
         <div>
+          <Router>
+            <Home />
+          </Router>
+          
           <h1>
             <span>Pixeled Bros</span>
           </h1>
