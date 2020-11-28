@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Video from '../../videos/video.webm';
-import {BannerContainer, BannerBg, AnimatedBg, BannerContent, BannerH1, BannerP} from './BannerElements';
+import {BannerContainer, BannerBg, AnimatedBg, BannerContent, BannerH1, BannerP, BannerBtnWrapper, PlainPointer, SparkPointer} from './BannerElements';
+import {Button} from '../ButtonElement';
 
-const Banner = () => {
+const BannerSection = () => {
+
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    }
+
     return (
         <BannerContainer>
             <BannerBg>
@@ -13,10 +21,14 @@ const Banner = () => {
                 <BannerP>
                     フィクションナルの世界に飛び込む
                 </BannerP>
-
+                <BannerBtnWrapper>
+                    <Button to='follow' onMouseEnter={onHover} onMouseLeave={onHover}>
+                        Discover {hover ? <SparkPointer/> : <PlainPointer /> }
+                    </Button>
+                </BannerBtnWrapper>
             </BannerContent>
         </BannerContainer>
     )
 }
 
-export default Banner;
+export default BannerSection;

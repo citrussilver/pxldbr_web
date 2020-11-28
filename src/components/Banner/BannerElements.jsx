@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import {RiGameLine, RiGameFill} from 'react-icons/ri';
+
 
 export const BannerContainer = styled.div`
     background: #0c0c0c;
@@ -10,6 +12,16 @@ export const BannerContainer = styled.div`
     position: relative;
     z-index: 1;
 
+    :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        z-index: 2;
+    }
     /* Add :before stytles */
 `
 
@@ -33,7 +45,6 @@ export const AnimatedBg = styled.video`
 `
 
 export const BannerContent = styled.div`
-    font-family: 'VT323', monospace;
     z-index: 3;
     max-width: 1200px;
     position: absolute;
@@ -44,8 +55,9 @@ export const BannerContent = styled.div`
 `
 
 export const BannerH1 = styled.h1`
+    font-family: 'VT323', monospace;
     color: #fff;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
 
     @media screen and (max-width: 768) {
@@ -58,7 +70,7 @@ export const BannerH1 = styled.h1`
 `
 
 export const BannerP = styled.p`
-    
+    font-family: 'Kosugi Maru', sans-serif;
     color: #fff;
     font-size: 24px;
     text-align: center;
@@ -78,4 +90,14 @@ export const BannerBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+`
+
+export const PlainPointer = styled(RiGameLine)`
+    margin-left: 8px;
+    font-size: 20px;
+`
+
+export const SparkPointer = styled(RiGameFill)`
+    margin-left: 8px;
+    font-size: 20px;
 `

@@ -11,7 +11,7 @@ const memlist = [
       imgSrc: "./img/rdk.jpg",
       name: "Red Key",
       desc:
-      "An Android that escaped a corporate Android world. It is the tenure years that taught this Android, not just to get by in the life but to be human-like. This Android believes that learning and looking for answers are the sorts of things that give Life meaning. Even an Android, it considers itself lucky that there are people that reminds its flawed thinking sometimes."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         id: 3,
