@@ -1,4 +1,4 @@
-const memlist = [
+const charlist = [
     {
       id: 1,
       imgSrc: "./img/ntnk.png",
@@ -43,5 +43,5 @@ const memlist = [
     }
   ];
   
-  export default memlist;
+  export default charlist;
   
